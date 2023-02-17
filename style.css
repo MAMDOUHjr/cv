@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+
+    font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+
+
+a, a:hover, a:active, a:focus{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+
+header{
+    background-color: #2A3132;
+    width: 100%;   
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.name{
+
+    text-decoration: none;
+    color: #C4DFE6;
+    font-weight: 700;
+    font-size: 1.8em;
+    transform: scale(1.1);
+    transition: 0.3s;
+
+
+}
+
+
+.name:hover{
+    
+        color: cornflowerblue;
+        transform: scale(1.2);
+}
+
+.nav a{
+
+color: #C4DFE6;
+text-decoration: none;
+font-size: 1em;
+font-weight: 500;
+padding: 10px;
+}
+.nav a:hover{
+
+color: cornflowerblue;
+
+}
+
+.fa-brands{
+    
+        font-size: 1.5em;
+        color: #C4DFE6;
+        padding: 10px;
+        transition: 0.3s;
+}
+.fa-brands:hover{
+
+    color: cornflowerblue;
+    transform: scale(1.1);
+}
+.fa-solid {
+    font-size: 1.5em;
+    color: #C4DFE6;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.fa-solid:hover{
+
+    color: cornflowerblue;
+    transform: scale(1.1);
+}
+.fas{
+    font-size: 1.5em;
+    color: #C4DFE6;
+    padding: 10px;
+    transition: 0.3s;
+}
+.fas:hover{
+
+    color: cornflowerblue;
+    transform: scale(1.1);
+}
+section{
+
+    padding: 100px 200px;
+}
+.main{
+    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;   
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.main h2{
+
+color:#2A3132;
+font-size: 1.1em;
+font-weight: 600;
+}
+.main span{
+    
+    color: #003B46;
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 20px;
+
+
+}
+.main-btn{
+
+color: azure;
+background-color: #003B46;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em 5.1875em;
+letter-spacing: 1px;
+border-radius: 20px;
+margin-bottom: 40px;
+transition: 0.3s;
+box-shadow: 0 1px 15px rgba(1 1 1/15);
+}
+
+.main-btn:hover{
+
+    background-color: silver;
+    color: #003B46;
+    transform: scale(1.1);
+
+}
+.social-icons{
+font-size: 1.3rem;
+padding-right: 30px;
+transition: 0.3s;
+}
+
+.title{
+
+    margin-bottom: 60px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 800;
+    
+
+}
+.projects{
+
+    background-color: #003B46;
+    padding: 20px;
+    
+    
+
+}
+.contain{
+text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+   flex-wrap: wrap;
+    
+
+
+}
+.title2{
+
+    
+    text-align: center;
+    color: #003B46;
+    font-weight: 800;
+
+
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.title3{
+
+    text-align: center;
+    color:aliceblue;
+    font-weight: 800;
+
+
+
+
+}
+.about{
+    background-color: #003B46 ;
+    color: aliceblue;
+    letter-spacing: 1px;
+    
+}
+
+.contact{
+
+    display: flex;
+    
+    text-align: center;
+  
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+   flex-wrap: wrap;
+    
+ 
+}
+
+.title4{
+    text-align: center;
+   color: #003B46;
+    font-weight: 800;
+    width: 100%;
+
+
+
+}
+.footer{
+
+background-color: #2A3132;
+color: aliceblue;
+
+
+}
+.name2{
+
+
+color: cornflowerblue;
+font-weight: 600;
+}
+
+
+
+
+
+
+
